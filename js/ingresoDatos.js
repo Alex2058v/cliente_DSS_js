@@ -9,8 +9,8 @@ guardarBtn.addEventListener('click', (event) =>{
     const editorial = {
         codigo_editorial: document.getElementById('codigo_editorial').value,
         nombre_editorial: document.getElementById('nombre_editorial').value,
-        contacto: document.querySelector('#contacto').value,
-        telefono: document.querySelector('#telefono').value
+        contacto: document.getElementById('contacto').value,
+        telefono: document.getElementById('telefono').value
     };
 
     fetch(url, {

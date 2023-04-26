@@ -14,7 +14,7 @@ function cargaDatos(){
                 <td>${edi.contacto}</td>
                 <td>${edi.telefono}</td>
                 <td class="btns">
-                    <a href="#" class="btn btn-secondary">Modificar</a>
+                <a href="editar.html?codigo_editorial=${edi.codigo_editorial}&nombre_editorial=${edi.nombre_editorial}&contacto=${edi.contacto}&telefono=${edi.telefono}" class="btn btn-secondary">Modificar</a>
                     <a href="#" class="btn btn-danger" onclick="eliminarDato('${edi.codigo_editorial}')">Eliminar</a>
                 </td>
             `;
